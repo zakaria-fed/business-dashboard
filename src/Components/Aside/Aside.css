@@ -1,0 +1,15 @@
+aside {
+    animation: asideAnim .6s ease-out;
+}
+
+@keyframes asideAnim {
+    0% {
+        opacity: 0;
+        margin-left: -15rem;
+    }
+
+    100% {
+        opacity: 100%;
+        margin-left: 0;
+    }
+}
